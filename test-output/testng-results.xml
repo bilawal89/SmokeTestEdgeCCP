@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63554" started-at="2018-10-25T12:35:50Z" finished-at="2018-10-25T12:36:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63554" started-at="2018-10-25T12:35:50Z" finished-at="2018-10-25T12:36:53Z">
+      <class name="smokeTest.ValidateSmokeTest">
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogin" duration-ms="9340" started-at="2018-10-25T17:35:50Z" finished-at="2018-10-25T17:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateMarkITPlacePage" duration-ms="5104" started-at="2018-10-25T17:35:59Z" finished-at="2018-10-25T17:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMarkITPlacePage -->
+        <test-method status="PASS" signature="ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateManageTab" duration-ms="5075" started-at="2018-10-25T17:36:04Z" finished-at="2018-10-25T17:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateManageTab -->
+        <test-method status="PASS" signature="ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateInsightTab" duration-ms="5070" started-at="2018-10-25T17:36:09Z" finished-at="2018-10-25T17:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInsightTab -->
+        <test-method status="PASS" signature="ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateNotificationPage" duration-ms="1193" started-at="2018-10-25T17:36:15Z" finished-at="2018-10-25T17:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNotificationPage -->
+        <test-method status="PASS" signature="ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogo" duration-ms="5087" started-at="2018-10-25T17:36:16Z" finished-at="2018-10-25T17:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogo -->
+        <test-method status="PASS" signature="ValidateLogout()[pri:6, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogout" duration-ms="10158" started-at="2018-10-25T17:36:21Z" finished-at="2018-10-25T17:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogout -->
+        <test-method status="PASS" signature="ValidateForgetPswd()[pri:7, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateForgetPswd" duration-ms="11317" started-at="2018-10-25T17:36:31Z" finished-at="2018-10-25T17:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateForgetPswd -->
+        <test-method status="PASS" signature="ValidateRegPage()[pri:8, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateRegPage" duration-ms="10521" started-at="2018-10-25T17:36:42Z" finished-at="2018-10-25T17:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRegPage -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="closebrowser" is-config="true" duration-ms="609" started-at="2018-10-25T17:36:53Z" finished-at="2018-10-25T17:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- smokeTest.ValidateSmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
