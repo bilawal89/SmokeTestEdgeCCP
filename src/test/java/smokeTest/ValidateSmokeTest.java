@@ -53,7 +53,7 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateLogin() throws IOException, InterruptedException {
 		driver = initializeDriver();
-
+		Thread.sleep(5000);
 		String TitleHome = driver.getTitle();
 		Log.info("The title of the home page is captured");
 
@@ -65,6 +65,7 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateMarkITPlacePage() throws InterruptedException {
 		// Header hd = new Header(driver);
+		Thread.sleep(5000);
 		HomePage hm = new HomePage(driver);
 		boolean MarketPlace_present;
 		try {
@@ -150,7 +151,7 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(Manage_present, true, "Manage Link is not Present in the home Dashboard");
 		Log.info("user has routed to the Manage Page after clicking on the manage Tab");
-
+Thread.sleep(5000);
 		String Manage_Titleact = driver.getTitle().trim();
 		String Manage_Titlexp = "Manage - CCP";
 		Assert.assertEquals(Manage_Titleact, Manage_Titlexp, "Manage Page is not getting open");
@@ -201,12 +202,9 @@ public class ValidateSmokeTest extends base {
 	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateInsightTab() throws InterruptedException {
-		// Header hd = new Header(driver);
+	
 		HomePage hm = new HomePage(driver);
 
-		// WebDriverWait wt = new WebDriverWait(driver, 20);
-
-		// hm.getMarketPlace_Link().click();
 
 		boolean insight_present;
 		try {
@@ -220,7 +218,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(insight_present, true, "Insight Link is not Present in the home Dashboard");
-
+Thread.sleep(5000);
 		String Insight_Titleact = driver.getTitle().trim();
 		String Insight_Titlexp = "Insights - CCP";
 		Assert.assertEquals(Insight_Titleact, Insight_Titlexp, "Insight Page is not getting open");
@@ -352,7 +350,7 @@ public class ValidateSmokeTest extends base {
 			Logo_present = false;
 		}
 		Assert.assertEquals(Logo_present, true, "Logo is not Present in the home Dashboard");
-
+Thread.sleep(5000);
 		String Shop_Titleact = driver.getTitle().trim();
 		String Shop_Titlexp = "Shop - CCP";
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "Clicking on Logo is not redirecting to the Shop Page");
@@ -379,6 +377,7 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
 
+		Thread.sleep(5000);
 		boolean Logout_present;
 		try {
 			hd.getLogout().click();
@@ -402,7 +401,7 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
-
+Thread.sleep(5000);
 		boolean ForgetPswd_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -417,7 +416,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(ForgetPswd_present, true, "Forget Password link is not Present on the Login Page");
-
+Thread.sleep(5000);
 		if (ForgetPswd_present == true) {
 			String Forgetpswd_Titleact = driver.getTitle().trim();
 			String Forgetpswd_Titlexp = "CCP Forgot Password";
@@ -479,6 +478,7 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateRegPage() throws InterruptedException {
 		driver.get(url);
+		Thread.sleep(5000);
 		LoginPage lp = new LoginPage(driver);
 		boolean CreateAcc_present;
 		try {
@@ -495,6 +495,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(CreateAcc_present, true, "Create Account link is not Present in the Login Page");
 
 		if (CreateAcc_present == true) {
+			Thread.sleep(5000);
 			String Registeration_Titleact = driver.getTitle().trim();
 			String Registeration_Titleexp = "CCP Signup";
 			Log.info("Signup Page is opended and its title is being captured");
