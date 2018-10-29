@@ -3,10 +3,6 @@ package smokeTest;
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Random;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
 import javax.swing.text.Element;
 
@@ -65,14 +61,14 @@ public class ValidateSmokeTest extends base {
 
 	public void ValidateMarkITPlacePage() throws InterruptedException {
 		// Header hd = new Header(driver);
-		Thread.sleep(5000);
+		// Thread.sleep(5000);
 		HomePage hm = new HomePage(driver);
 		boolean MarketPlace_present;
 		try {
 			hm.getMarketPlace_Link().click();
 			Log.info("From the Home Page User has Clicked on MarkITPlace tab");
 			MarketPlace_present = true;
-
+			Thread.sleep(5000);
 		} catch (NoSuchElementException e) {
 			MarketPlace_present = false;
 			Log.error("User not able to find MarkITPlace Link , hence not able to click it");
@@ -143,7 +139,7 @@ public class ValidateSmokeTest extends base {
 			hm.getManage_Link().click();
 			Manage_present = true;
 			Log.info("User has Clicked on the Manage tab from the Home Dashboard");
-
+			Thread.sleep(5000);
 		} catch (NoSuchElementException e) {
 			Manage_present = false;
 			Log.error("User not able to find Manage Link on the Shop Page");
@@ -151,7 +147,7 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(Manage_present, true, "Manage Link is not Present in the home Dashboard");
 		Log.info("user has routed to the Manage Page after clicking on the manage Tab");
-Thread.sleep(5000);
+		Thread.sleep(5000);
 		String Manage_Titleact = driver.getTitle().trim();
 		String Manage_Titlexp = "Manage - CCP";
 		Assert.assertEquals(Manage_Titleact, Manage_Titlexp, "Manage Page is not getting open");
@@ -202,23 +198,22 @@ Thread.sleep(5000);
 	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateInsightTab() throws InterruptedException {
-	
-		HomePage hm = new HomePage(driver);
 
+		HomePage hm = new HomePage(driver);
 
 		boolean insight_present;
 		try {
 			hm.getInsight_Link().click();
 			insight_present = true;
 			Log.info("User has clicked on the Insight tab from the Home Page");
-
+			Thread.sleep(5000);
 		} catch (NoSuchElementException e) {
 			insight_present = false;
 			Log.error("User not able to find the Insight tab on the Home Page");
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(insight_present, true, "Insight Link is not Present in the home Dashboard");
-Thread.sleep(5000);
+		Thread.sleep(5000);
 		String Insight_Titleact = driver.getTitle().trim();
 		String Insight_Titlexp = "Insights - CCP";
 		Assert.assertEquals(Insight_Titleact, Insight_Titlexp, "Insight Page is not getting open");
@@ -266,7 +261,7 @@ Thread.sleep(5000);
 			hd.getNotification().click();
 			Notification_present = true;
 			Log.info("User has clicked on the notification link from the Home Page");
-
+			Thread.sleep(5000);
 		} catch (NoSuchElementException e) {
 			Notification_present = false;
 			Log.error("User not able to find the notification link on the Dashboard , hence not able to click it");
@@ -349,8 +344,9 @@ Thread.sleep(5000);
 			Log.error(e.getMessage());
 			Logo_present = false;
 		}
+		Thread.sleep(5000);
 		Assert.assertEquals(Logo_present, true, "Logo is not Present in the home Dashboard");
-Thread.sleep(5000);
+		// Thread.sleep(5000);
 		String Shop_Titleact = driver.getTitle().trim();
 		String Shop_Titlexp = "Shop - CCP";
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "Clicking on Logo is not redirecting to the Shop Page");
@@ -375,6 +371,7 @@ Thread.sleep(5000);
 			Log.error("User not able to find the account menu on the Home Page");
 			Log.error(e.getMessage());
 		}
+		Thread.sleep(5000);
 		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
 
 		Thread.sleep(5000);
@@ -391,7 +388,7 @@ Thread.sleep(5000);
 		}
 
 		Assert.assertEquals(Logout_present, true, "Logout is not Present in the home Dashboard under My Account Menu");
-
+		Thread.sleep(5000);
 		String Shop_Titleact = driver.getTitle().trim();
 		String Shop_Titlexp = "CCP Login";
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "User is not being able to Signout from the application");
@@ -401,7 +398,7 @@ Thread.sleep(5000);
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
-Thread.sleep(5000);
+		Thread.sleep(5000);
 		boolean ForgetPswd_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -416,7 +413,7 @@ Thread.sleep(5000);
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(ForgetPswd_present, true, "Forget Password link is not Present on the Login Page");
-Thread.sleep(5000);
+		Thread.sleep(5000);
 		if (ForgetPswd_present == true) {
 			String Forgetpswd_Titleact = driver.getTitle().trim();
 			String Forgetpswd_Titlexp = "CCP Forgot Password";
@@ -431,7 +428,7 @@ Thread.sleep(5000);
 			fp.getemail();
 			email_present = true;
 			Log.info("Email textbox is present on the Forget password page");
-
+			Thread.sleep(5000);
 		} catch (Exception e) {
 			email_present = false;
 			Log.error("Email textbox is not present on the Forget password page");
