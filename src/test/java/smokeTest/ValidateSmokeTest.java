@@ -258,6 +258,7 @@ public class ValidateSmokeTest extends base {
 
 		boolean Notification_present;
 		try {
+			Thread.sleep(5000);
 			hd.getNotification().click();
 			Notification_present = true;
 			Log.info("User has clicked on the notification link from the Home Page");
@@ -415,7 +416,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(ForgetPswd_present, true, "Forget Password link is not Present on the Login Page");
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		if (ForgetPswd_present == true) {
 			String Forgetpswd_Titleact = driver.getTitle().trim();
 			String Forgetpswd_Titlexp = "CCP Forgot Password";
