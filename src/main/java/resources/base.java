@@ -30,7 +30,7 @@ import pageObjects.LoginPage;
 	public static FileInputStream fis;
 	public LoginPage lp;
 	
-	public WebDriver initializeDriver() throws IOException
+	public WebDriver initializeDriver() throws IOException, InterruptedException
 	{
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestEdgeCCP\\src\\main\\java\\resources\\data.properties");
@@ -68,7 +68,7 @@ import pageObjects.LoginPage;
 		
 		driver.get(url);
 		driver.manage().window().maximize();
-				
+				Thread.sleep(5000);
 		LoginPage lp = new LoginPage(driver);
 		
 		if(driver.getTitle().contains("Shop - CCP"))
@@ -110,7 +110,7 @@ import pageObjects.LoginPage;
 		try {
 			lp.getloginbtn().click();
 			Login_present = true;
-		   
+		   Thread.sleep(5000);
 		} catch (Exception e) {
 			Login_present = false;
 		}

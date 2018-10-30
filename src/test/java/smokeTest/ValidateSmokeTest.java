@@ -147,7 +147,7 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(Manage_present, true, "Manage Link is not Present in the home Dashboard");
 		Log.info("user has routed to the Manage Page after clicking on the manage Tab");
-		Thread.sleep(5000);
+	//	Thread.sleep(5000);
 		String Manage_Titleact = driver.getTitle().trim();
 		String Manage_Titlexp = "Manage - CCP";
 		Assert.assertEquals(Manage_Titleact, Manage_Titlexp, "Manage Page is not getting open");
@@ -334,6 +334,7 @@ public class ValidateSmokeTest extends base {
 		boolean Logo_present;
 		try {
 			Np.getLogo().click();
+			Thread.sleep(5000);
 
 			Logo_present = true;
 			Log.info("User has clicked on the Logo from the Notification Page");
@@ -344,7 +345,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 			Logo_present = false;
 		}
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		Assert.assertEquals(Logo_present, true, "Logo is not Present in the home Dashboard");
 		// Thread.sleep(5000);
 		String Shop_Titleact = driver.getTitle().trim();
@@ -399,6 +400,7 @@ public class ValidateSmokeTest extends base {
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
 		Thread.sleep(5000);
+		WebDriverWait wt = new WebDriverWait(driver,50);
 		boolean ForgetPswd_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
@@ -436,8 +438,9 @@ public class ValidateSmokeTest extends base {
 
 		}
 		Assert.assertEquals(email_present, true, "Email Address textbox is not Present in the Forget password Page");
-
+		
 		boolean SbmtBtn_present;
+		wt.until(ExpectedConditions.elementToBeClickable(fp.getSbmt_Btn()));
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
 			fp.getSbmt_Btn().click();
@@ -454,6 +457,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(SbmtBtn_present, true, "Submit button is not Present in the Forget password Page");
 		boolean validation_present;
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
+		wt.until(ExpectedConditions.elementToBeClickable(fp.getValidation_Message()));
 		try {
 			fp.getValidation_Message();
 
@@ -500,6 +504,10 @@ public class ValidateSmokeTest extends base {
 					"User is not being able to reach Registeration page");
 
 			RegisterationPage Rp = new RegisterationPage(driver);
+			
+			WebDriverWait wt = new WebDriverWait(driver, 50);
+			
+			wt.until(ExpectedConditions.elementToBeClickable(Rp.getemail()));
 			boolean email_present;
 			try {
 				Rp.getemail();
@@ -511,7 +519,7 @@ public class ValidateSmokeTest extends base {
 				Log.error("Email Text Box is not present on the Signup Page");
 				Log.error(e.getMessage());
 			}
-			Assert.assertEquals(email_present, true, "Email text box is present on the Registeration Page");
+			Assert.assertEquals(email_present, true, "Email text box is not present on the Registeration Page");
 
 			if (email_present == true) {
 				boolean VerifyBtn_present;
