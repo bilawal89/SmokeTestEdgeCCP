@@ -71,12 +71,18 @@ import pageObjects.LoginPage;
 				Thread.sleep(5000);
 		LoginPage lp = new LoginPage(driver);
 		
-		if(driver.getTitle().contains("Shop - CCP"))
-		{
-			
-		Assert.assertEquals(driver.getTitle(), "CCP Login","The User is already Login into the application");
-		Log.error("User is already Login to the application");
+		boolean AlreadyLogin = false;
+		if (driver.getTitle().contains("Shop - CCP")) {
+
+			//Assert.assertEquals(driver.getTitle(), "CCP Login", "The User is already Login into the application");
+			Log.error("User is already Login to the application");
+			AlreadyLogin  = true;
+			Thread.sleep(3000);
 		}
+		
+		if(AlreadyLogin==false){
+			
+		
 		
 		boolean Email_present;
 		try {
@@ -117,59 +123,16 @@ import pageObjects.LoginPage;
 		
 		Assert.assertEquals(Login_present, true,"Login button is not appearing in the login page");
 
-		
-		
-		
+		}
 		/*
 		lp.getusername().sendKeys(prop.getProperty("username"));
 		lp.getpassword().sendKeys(prop.getProperty("pswd"));
 		lp.getloginbtn().click();	
-		
 		*/
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return driver;
 		
 	}
-	
-	/*
-	public WebDriver initiali 	zeDriverWithoutCredentials() throws IOException
-	{
-		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Program Files (x86)\\Jenkins\\workspace\\SmokeTestJobChrome\\TestEcommerce1\\src\\main\\java\\resources\\data.properties");
-		prop.load(fis);
-		String browserName = prop.getProperty("browser");
-		url = prop.getProperty("url");
-		
-		System.out.println("Browser selected is "+browserName);
-		if(browserName.equals("chrome"))
-		{
-			System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
-			 driver = new ChromeDriver();
-		}
-		else if(browserName.equals("firefox"))
-		{
-			System.setProperty("webdriver.firefox.driver", "C:\\driver\\geckodriver.exe");
-			driver = new FirefoxDriver();
-		}
-		else if(browserName.equals("ie"))
-		{
-			System.setProperty("webdriver.ie.driver", "C:\\driver\\IEDriverServer.exe");
-			driver = new InternetExplorerDriver();
-		}
-		driver.get(url);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		return driver;
-		
-	}
-	*/
-	
-	
-	
-	
-	
-	
-	
 	
 	public void getScreenshot(String result) throws IOException
 	{
