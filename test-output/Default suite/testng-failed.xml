@@ -5,15 +5,11 @@
     <classes>
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
-          <include name="ValidateSetNotifications"/>
           <include name="ValidateUsersPage"/>
-          <include name="ValidateRegPage"/>
-          <include name="ValidateForgetPswd"/>
           <include name="ValidateLogin"/>
           <include name="closebrowser"/>
           <include name="ValidateAddressPage"/>
           <include name="ValidateInviteTab"/>
-          <include name="ValidateLogout"/>
           <include name="ValidateRequestTab"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->

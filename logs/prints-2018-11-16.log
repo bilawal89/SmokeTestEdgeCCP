@@ -1,0 +1,446 @@
+18:29:13.304 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 45B08A12-6B80-4662-AB52-C6A664D5C13D
+*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
+18:29:36.676 [main] ERROR resources.base - User not able to find Create Account Link on the Login Page , hence not able to click it
+18:29:36.676 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 45B08A12-6B80-4662-AB52-C6A664D5C13D
+*** Element info: {Using=xpath, value=//a[text()='Create Account']}
+18:48:30.236 [main] ERROR resources.base - User is already Login to the application
+18:48:33.322 [main] INFO  resources.base - The title of the home page is captured
+18:48:33.324 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+18:48:35.405 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+18:48:35.405 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+18:48:38.661 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+18:48:38.661 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:48:38.687 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+18:48:40.812 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+18:48:40.843 [main] INFO  resources.base - Calendar link is present on the Manage Page
+18:48:40.869 [main] INFO  resources.base - Subscription link is present on the Manage Page
+18:48:43.920 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+18:48:43.995 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+18:48:44.032 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+18:48:44.073 [main] INFO  resources.base - Report Link is present on the Insight Page
+18:48:46.163 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+18:48:46.163 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+18:48:48.430 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+18:48:48.533 [main] INFO  resources.base - Notification heading is present on the Notifications page
+18:48:48.552 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+18:48:48.573 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+18:48:53.662 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+18:48:53.719 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+18:48:53.819 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:48:59.287 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+18:48:59.322 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+18:49:06.399 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+18:49:06.524 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+18:49:08.614 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:49:13.723 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+18:49:13.850 [main] INFO  resources.base - Change password heading is present on Change Password Page
+18:49:15.888 [main] INFO  resources.base - User has clicked on the Account Setting from the left navigation menu
+18:49:16.008 [main] INFO  resources.base - Account Settings heading is present on Account Settings Page
+18:49:18.080 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+18:49:18.207 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+18:49:20.245 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+18:49:20.288 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+18:49:25.369 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:49:30.734 [main] INFO  resources.base - User has clicked on the Set Notification Link from the Account Menu
+18:49:32.818 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:49:35.232 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+18:49:37.403 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+18:49:39.524 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:49:41.829 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+18:49:47.003 [main] INFO  resources.base - Tabs are appearing on the Users Page
+18:49:49.140 [main] INFO  resources.base - User has clicked on the request tab on the users page
+18:49:49.226 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+18:49:51.305 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+18:49:51.323 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+18:49:53.405 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:49:55.810 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+18:49:55.917 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+18:50:01.030 [main] INFO  resources.base - Email textbox is present on the Forget password page
+18:50:04.100 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+18:50:04.159 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+18:50:25.305 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+18:50:25.364 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+18:50:31.907 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+18:50:31.988 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+18:50:32.034 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+08:35:13.130 [main] INFO  resources.base - The title of the home page is captured
+08:35:13.130 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+08:35:15.252 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+08:35:15.253 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+08:35:17.426 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+08:35:17.426 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+08:35:17.483 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+08:35:17.514 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+08:35:17.536 [main] INFO  resources.base - Calendar link is present on the Manage Page
+08:35:17.554 [main] INFO  resources.base - Subscription link is present on the Manage Page
+08:35:20.619 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+08:35:20.666 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+08:35:20.704 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+08:35:20.736 [main] INFO  resources.base - Report Link is present on the Insight Page
+08:35:22.794 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+08:35:22.794 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+08:35:42.941 [main] ERROR resources.base - Notification Settings button is not present on the Notifications page
+08:35:42.941 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//a[@class='btn' and text()='Notification Settings']}
+08:35:48.039 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+08:35:48.083 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+08:35:48.193 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:35:48.236 [main] ERROR resources.base - User not able to click on the My Profile Page from the Account Menu
+08:35:48.236 [main] ERROR resources.base - Invalid argument (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+08:36:08.253 [main] ERROR resources.base - User not able to click on the Edit Profile button on My Profile Page
+08:36:08.253 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//a[@class='btn edit']}
+08:36:10.326 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:36:15.469 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+08:36:15.597 [main] INFO  resources.base - Change password heading is present on Change Password Page
+08:36:15.623 [main] ERROR resources.base - User not able to click on the Account Setting from the left navigation menu
+08:36:15.623 [main] ERROR resources.base - Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+08:36:15.670 [main] ERROR resources.base - User not able to click on the Catalog Restrictions link from the left navigation menu
+08:36:15.670 [main] ERROR resources.base - Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+08:36:35.713 [main] ERROR resources.base - User not able to click on the Domain Link link from the left navigation menu
+08:36:35.713 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//a[text()='Domains']}
+08:36:40.798 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:37:00.881 [main] ERROR resources.base - User not able to click on the Set Notification Link from the Account Menu
+08:37:00.881 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//div[@class='account-menu']//a[text()='Set Notifications']}
+08:37:02.968 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:37:05.457 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+08:37:22.989 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+08:37:25.117 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:37:45.170 [main] ERROR resources.base - User not able to click on the users link from the Account Menu
+08:37:45.170 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//div[@class='account-menu']//a[text()='Users']}
+08:38:05.211 [main] ERROR resources.base - User not able to click on request tab on the users page
+08:38:05.211 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//a[text()='Requests ']}
+08:38:25.247 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+08:38:25.247 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: DE322DDF-FECF-4BA1-B1B4-DDFFDA75EFE0
+*** Element info: {Using=xpath, value=//a[text()='Invites ']}
+08:38:27.337 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:38:29.720 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+08:38:29.824 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+08:38:34.963 [main] INFO  resources.base - Email textbox is present on the Forget password page
+08:38:38.039 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+08:38:38.086 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+08:38:41.542 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+08:38:41.612 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+08:49:39.461 [main] INFO  resources.base - The title of the home page is captured
+08:49:39.461 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+08:49:41.580 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+08:49:41.580 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+08:49:43.826 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+08:49:43.826 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+08:49:43.871 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+08:49:43.937 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+08:49:43.956 [main] INFO  resources.base - Calendar link is present on the Manage Page
+08:49:43.978 [main] INFO  resources.base - Subscription link is present on the Manage Page
+08:49:47.066 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+08:49:47.125 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+08:49:47.186 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+08:49:47.214 [main] INFO  resources.base - Report Link is present on the Insight Page
+08:49:49.318 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+08:49:49.318 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+08:50:09.464 [main] ERROR resources.base - Notification Settings button is not present on the Notifications page
+08:50:09.464 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//a[@class='btn' and text()='Notification Settings']}
+08:50:14.520 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+08:50:14.567 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+08:50:14.736 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:50:20.031 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+08:50:20.173 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+08:50:27.269 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+08:50:27.355 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+08:50:29.421 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:50:34.562 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+08:50:34.699 [main] INFO  resources.base - Change password heading is present on Change Password Page
+08:50:34.761 [main] ERROR resources.base - User not able to click on the Account Setting from the left navigation menu
+08:50:34.761 [main] ERROR resources.base - Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+08:50:34.813 [main] ERROR resources.base - User not able to click on the Catalog Restrictions link from the left navigation menu
+08:50:34.813 [main] ERROR resources.base - Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+08:50:54.872 [main] ERROR resources.base - User not able to click on the Domain Link link from the left navigation menu
+08:50:54.872 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//a[text()='Domains']}
+08:50:59.946 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:51:20.017 [main] ERROR resources.base - User not able to click on the Set Notification Link from the Account Menu
+08:51:20.017 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//div[@class='account-menu']//a[text()='Set Notifications']}
+08:51:22.125 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:51:24.666 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+08:51:26.799 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+08:51:28.918 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:51:48.985 [main] ERROR resources.base - User not able to click on the users link from the Account Menu
+08:51:48.985 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//div[@class='account-menu']//a[text()='Users']}
+08:52:09.003 [main] ERROR resources.base - User not able to click on request tab on the users page
+08:52:09.003 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//a[text()='Requests ']}
+08:52:29.029 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+08:52:29.039 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 74BFF17C-8374-4079-905C-57C528D2A608
+*** Element info: {Using=xpath, value=//a[text()='Invites ']}
+08:52:31.128 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:52:33.515 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+08:52:33.624 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+08:52:38.719 [main] INFO  resources.base - Email textbox is present on the Forget password page
+08:52:41.786 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+08:52:41.828 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+08:52:45.419 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+08:52:45.464 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+08:41:35.370 [main] INFO  resources.base - The title of the home page is captured
+08:41:35.370 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+08:41:42.578 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+08:41:42.578 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+08:41:44.748 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+08:41:44.748 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+08:41:44.796 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+08:41:44.836 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+08:41:44.859 [main] INFO  resources.base - Calendar link is present on the Manage Page
+08:41:44.881 [main] INFO  resources.base - Subscription link is present on the Manage Page
+08:41:47.924 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+08:41:47.977 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+08:41:48.082 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+08:41:48.103 [main] INFO  resources.base - Report Link is present on the Insight Page
+08:41:50.162 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+08:41:50.162 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+08:42:10.240 [main] ERROR resources.base - Notification Settings button is not present on the Notifications page
+08:42:10.240 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=//a[@class='btn' and text()='Notification Settings']}
+08:42:15.361 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+08:42:15.406 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+08:42:15.517 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:42:15.555 [main] ERROR resources.base - User not able to click on the My Profile Page from the Account Menu
+08:42:15.555 [main] ERROR resources.base - Invalid argument (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+08:42:35.595 [main] ERROR resources.base - User not able to click on the Edit Profile button on My Profile Page
+08:42:35.595 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=//a[@class='btn edit']}
+08:42:37.656 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:42:37.728 [main] ERROR resources.base - User not able to click on the Change Password Link from the Account Menu
+08:42:37.728 [main] ERROR resources.base - Invalid argument (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+08:42:37.774 [main] ERROR resources.base - User not able to click on the Account Setting from the left navigation menu
+08:42:37.774 [main] ERROR resources.base - Unknown error (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+08:42:57.803 [main] ERROR resources.base - User not able to click on the Catalog Restrictions link from the left navigation menu
+08:42:57.803 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=(//a[text()='Catalog Restrictions'])[3]}
+08:43:17.828 [main] ERROR resources.base - User not able to click on the Domain Link link from the left navigation menu
+08:43:17.828 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=(//a[text()='Manage Domains'])[3]}
+08:43:19.896 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:43:19.978 [main] ERROR resources.base - User not able to click on the Address of Use Link from the Account Menu
+08:43:19.978 [main] ERROR resources.base - Invalid argument (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+08:43:22.076 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+08:43:22.161 [main] ERROR resources.base - User not able to click on the users link from the Account Menu
+08:43:22.161 [main] ERROR resources.base - Invalid argument (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+08:43:42.228 [main] ERROR resources.base - User not able to click on request tab on the users page
+08:43:42.228 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=//a[text()='Requests ']}
+08:44:02.271 [main] ERROR resources.base - User not able to click on Invites tab on the users page
+08:44:02.271 [main] ERROR resources.base - No such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: 2402226E-A1C7-40C7-96F9-34D61AF427A7
+*** Element info: {Using=xpath, value=//a[text()='Invites ']}
+08:44:04.353 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
