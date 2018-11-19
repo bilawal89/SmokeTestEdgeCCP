@@ -34,7 +34,7 @@ By ChangePassword=By.xpath("(//a[text()='Change Password'])[1]");
 
 By SetNotifications=By.xpath("(//a[text()='Set Notifications'])[1]");
 
-By Address=By.xpath("(//a[text()='Address Of Use'])[1]");
+By Address=By.xpath("(//a[text()='Address of Use'])[1]");
 
 By Users=By.xpath("(//a[text()='User Management'])[1]");
 
